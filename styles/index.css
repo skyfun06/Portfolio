@@ -744,3 +744,272 @@ h1 > span:last-child {
 .collaborer > button:hover {
     transform: scale(1.05);
 } 
+
+.contact {
+    height: 1394px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: #0f1d2a;
+
+    padding-top: 70px;
+    gap: 15px;
+}
+
+.contact > h2 {
+    color: #dde9f3;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.contact > h2 > span {
+    color: #66ffdb;
+}
+
+.contact > p {
+    max-width: 672px;
+
+    color: #8db6d8;
+    font-size: 18px;
+
+    text-align: center;
+    position: relative;
+}
+
+.contact > p::after {
+    content: "";
+    position: absolute;
+    width: 96px;         
+    height: 5px;
+    background-color: #66ffdb;
+    bottom: -15px;
+    left: 50%;           
+    transform: translateX(-50%); 
+}
+
+.contact-us {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.contact-us > div {
+    max-width: 552px; /* limite */
+}
+
+.message {
+    width: 552px;
+    min-height: 476px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: #112331;
+
+    border-radius: 16px;
+
+    padding: 32px;
+    gap: 20px;
+}
+
+.message > h3 {
+    color: #dde9f3;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.message > form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 20px;
+}
+
+.message > form > div {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 10px;
+}
+
+.message > form > div > label {
+    color: #dde9f3;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.message > form > div > input {
+    width: 100%;
+
+    color: #8db6d8;
+    font-size: 14px;
+
+    background-color: #0f1d2a;
+
+    padding: 8px 12px;
+
+    border: 1px solid #172d40;
+    border-radius: 12px;
+}
+
+.message > form > div > input:focus {
+    border: 2px solid #66ffdb;
+}
+
+.message > form > div > textarea {
+    width: 100%;
+    min-height: 80px;
+    max-height: calc(476px - 32px*2 - 24px - 20px*3);
+    
+    color: #8db6d8;
+    font-size: 14px;
+    background-color: #0f1d2a;
+    padding: 8px 12px;
+    border: 1px solid #172d40;
+    border-radius: 12px;
+
+    resize: vertical;
+}
+
+.message > form > button {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #66ffdb;
+    box-shadow: 0 0 40px #66ffdb4d;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    padding: 12px 16px;
+    gap: 15px;
+
+    border-radius: 12px;
+
+    transition: all 0.3s ease;
+}
+
+.message > form > button:hover {
+    transform: scale(1.05);
+}
+
+.contact-us > div:last-child {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    width: 100%;
+    max-width: 552px;
+    height: 380px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: #112331;
+
+    padding: 32px;
+    gap: 20px;
+
+    border-radius: 16px;
+}
+
+
+.contact-info > h3 {
+    color: #dde9f3;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact-info > div {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 15px;
+}
+
+.contact-info > div > div {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 15px;
+    padding: 16px;
+
+    background-color: #142838;
+
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+}
+
+.contact-info > div > div:hover {
+    transform: scale(1.05);
+}
+
+.contact-info > div > div > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1b3d48;
+    
+    color: #66ffdb;
+
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.contact-info > div > div > div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-info > div > div > div:last-child > p:first-child {
+    color: #8db6d8;
+    font-size: 14px;
+}
+
+.contact-info > div > div > div:last-child > p:last-child {
+    color: #dde9f3;
+    font-weight: 500;
+}
