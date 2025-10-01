@@ -8,6 +8,10 @@
   50% { border-color: #66ffdb }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --accent: 166 100% 70%;   /* ex: cyan clair (H S L sans le hsl() autour) */
   --primary: 207 48% 15%;   /* ex: bleu foncé */
@@ -131,7 +135,7 @@ h1 > span:last-child {
     padding-top: 50px;
 }
 
-.button-div > button {
+.button-div > a {
     font-size: 18px;
     font-weight: 500;
 
@@ -142,17 +146,17 @@ h1 > span:last-child {
     transition: transform 0.3s ease;
 }
 
-.button-div > button:hover {
+.button-div > a:hover {
     transform: scale(1.10);
 }
 
-.button-div > button:first-child {
+.button-div > a:first-child {
     color: #0f1d2a;
     background-color: #66ffdbe6;
     box-shadow: 0 0 40px #66ffdb4d;
 }
 
-.button-div > button:last-child {
+.button-div > a:last-child {
     color: #66ffdb;
 }
 
@@ -728,7 +732,7 @@ h1 > span:last-child {
     padding-bottom: 15px;
 }
 
-.collaborer > button {
+.collaborer > a {
     color: #0f1d2a;
     font-weight: 500;
     padding: 12px 32px;
@@ -741,7 +745,7 @@ h1 > span:last-child {
     transition: all 0.3s ease;
 }
 
-.collaborer > button:hover {
+.collaborer > a:hover {
     transform: scale(1.05);
 } 
 
