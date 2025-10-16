@@ -407,7 +407,7 @@ h1 > span:last-child {
     width: 100%; 
     height: 192px;
 
-    background-image: url("https://lovable.dev/_next/image?url=https%3A%2F%2Fpub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev%2F1dcb233c-46d8-47dc-836a-808f50ae1cac%2Fid-preview-791a9e4e--56d4657b-918d-45b9-b328-0910180ccb41.lovable.app-1752922959010.png&w=1080&q=75");
+    background-image: url("https://cdn.discordapp.com/attachments/1075820090567688192/1428498548588150784/image.png?ex=68f2b872&is=68f166f2&hm=161af0113fa7e66695303e768757fa2bceca97fb76521b500227f1bc57e56e14");
     background-repeat: no-repeat;
     background-position: center top; 
     background-size: cover; 
@@ -1093,6 +1093,13 @@ h1 > span:last-child {
 }
 
 .finding > div > div > p {
+    color: #dde9f3;
+    font-weight: 500;
+}
+
+.finding > div > div > a {
+    width: 100%;
+    
     color: #dde9f3;
     font-weight: 500;
 }
